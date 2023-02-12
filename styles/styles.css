@@ -1,6 +1,7 @@
 *{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
     padding: 10px;
     box-sizing: border-box;
     text-decoration: none;
@@ -11,8 +12,6 @@
 }
 
 .PortadaIndex{
-   
-    padding: 25px;
     background: url(../img/design1_image1.jpg);;
     background-repeat: no-repeat;
     background-size: 80% 80%;
@@ -21,19 +20,31 @@
 }
 
 .upcomingevents{
-    position: relative;
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: white;
 }
 
 .logo{
     width: 100px;
     height: 100px;
-    float: right;
+    float: inline-end;
+    position: relative;
+}
+
+.main{
+    display: inline-flex;
+}
+
+.barradenav{
+    float: left;
+    width: 40%;
 }
 
 .articulo{
-    display: flex;
+    float: inline-start;
+    width: 60%; 
 }
+
