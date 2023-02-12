@@ -1,5 +1,6 @@
 *{
-    margin: 10px;
+    margin-left: 3rem;
+    margin-right: 3rem;
     padding: 10px;
     box-sizing: border-box;
     text-decoration: none;
@@ -10,11 +11,13 @@
 }
 
 .PortadaIndex{
-    background-image: url(../img/design1_image1.jpg);
-    background-size: cover;
-    height: 10vw;
-    width: 148vh;
-
+   
+    padding: 25px;
+    background: url(../img/design1_image1.jpg);;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    height: 8cm;
+    width: 45cm;
 }
 
 .upcomingevents{
