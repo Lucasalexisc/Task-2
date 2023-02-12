@@ -1,0 +1,36 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.tituloheader{
+    position: absolute;
+}
+
+.PortadaIndex{
+    background-image: url(../img/design1_image1.jpg);
+    background-size: cover;
+    height: 10vw;
+    width: 148vh;
+
+}
+
+.upcomingevents{
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.articulo{
+    display: flex;
+}
