@@ -1,0 +1,122 @@
+ *{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.tituloheader{
+    background-color: aquamarine;
+    text-align: center;
+
+}
+
+/* .PortadaIndex{
+    background: url(../img/design1_image1.jpg);;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    height: 8cm;
+    width: 40cm;
+} */
+
+.upcomingevents{
+/* display: inline-block; */
+justify-content: center;
+align-items: center;
+background-color: rgb(19, 106, 109);
+color: rgb(0, 0, 0);
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    float: right;
+    position: relative;
+}
+
+/* .main{
+    display: inline-flex;
+} */
+/* 
+.barradenav{
+    float: left;
+    width: 40%;
+    background-color: beige;
+    border: 2px;
+    border-style: dotted;
+} */
+
+.articulo{
+    /* float: inline-start; */
+    width: 60%; 
+} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.imagen{
+  width: 35%;
+  height: 25%;
+ 
+}
+.imagen2{
+  width: 35%;
+  height: 25%;
+}
+
+.texto{
+  font: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+ */
