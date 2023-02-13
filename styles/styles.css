@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-size: 80% 80%;
     height: 8cm;
-    width: 57cm;
+    width: 40cm;
 }
 
 .upcomingevents{
@@ -30,7 +30,7 @@ color: white;
 .logo{
     width: 100px;
     height: 100px;
-    float: inline-end;
+    float: right;
     position: relative;
 }
 
