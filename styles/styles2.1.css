@@ -10,6 +10,7 @@
 .tituloheader{
     background-color: aquamarine;
     text-align: center;
+    border: 1px solid #000;
 
 }
 
@@ -19,6 +20,7 @@ justify-content: center;
 align-items: center;
 background-color: rgb(19, 106, 109);
 color: rgb(0, 0, 0);
+border: 1px solid #000;
 }
 
 .logo{
@@ -74,3 +76,27 @@ li a:hover:not(.active) {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.footer{
+  background-color: aquamarine;
+  border: 1px solid #000;
+}
+
+.textos{
+  display: inline;
+  font-size: medium;
+  font-weight: normal;
+}
+
+.parrafo{
+  display: inline;
+  font-weight: normal;
+  font-size: smaller;
+}
+
+.consultas{
+  display: inline;
+}
+
+.mail{
+  float: right;
+}
