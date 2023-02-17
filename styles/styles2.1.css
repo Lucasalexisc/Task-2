@@ -13,7 +13,12 @@
     border: 1px solid #000;
 
 }
-
+body{
+  background-color: beige;
+}
+.main{
+  background-color: beige;
+}
 
 .upcomingevents{
 justify-content: center;
@@ -33,7 +38,7 @@ border: 1px solid #000;
 .articulo{
     width: 60%; 
 } 
-ul {
+.barnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -41,7 +46,7 @@ ul {
   background-color: #333;
 }
 
-li {
+.navbar {
   float: left;
 }
 
@@ -96,7 +101,45 @@ li a:hover:not(.active) {
 .consultas{
   display: inline;
 }
-
-.mail{
+ .mail{
+  display: flexbox;
   float: right;
+} 
+
+.contenedor{
+  display: flex;
 }
+
+.email{
+  display: inline;
+  font-weight: normal;
+  font-size: smaller;
+  float: inline-end;
+}
+
+.textoprincipal{
+  justify-content: center;
+align-items: center;
+background-color: rgb(19, 106, 109);
+color: rgb(0, 0, 0);
+border: 1px solid #000;
+text-align: center;
+}
+
+.piedetexto{
+  font-weight: normal;
+  font-size: smaller;
+}
+
+.textorules{
+  display: inline-block;
+}
+
+.titulos{
+  font-weight: bold;
+}
+
+
+
+
+
